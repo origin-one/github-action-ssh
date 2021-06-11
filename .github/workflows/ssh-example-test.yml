@@ -1,7 +1,8 @@
 name: Test latest commit
 
 on: 
-  push
+  watch:
+    types: started
 
 jobs:
   build:
